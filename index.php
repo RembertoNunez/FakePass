@@ -17,7 +17,7 @@
     <body>
         <?php
         if($_GET['submit'] == "Generate") {
-           echo "<h4> Your Fake Passport is at the bottom</h4>";
+           echo "<h4> Your Fake Passport is at the bottom <br/> Ready to print and sign</h4>";
         }
         ?>
         <form>
@@ -327,7 +327,9 @@
             echo "<div class='passportType'>" . $passportType . "</div>";
             echo "<div class='issue'>" . $issue . "</div>";
             echo "<div class='expiration'>" . $expiration . "</div>";
-            echo "<div class='image'>" . $image . "</div>";
+            echo "<div class='image'>";
+            echo "<img src='./$image' alt='fake'>";
+            echo "</div>";
         echo "</div>";
         }
         ?>

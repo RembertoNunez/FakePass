@@ -103,8 +103,9 @@ img {
 
 .image {
     position: absolute;
-    top: 62%;
-    left: 36%;
+    top: 66%;
+    left: 23%;
+    width: 30%;
 }
 
 .code {
