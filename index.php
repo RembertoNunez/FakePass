@@ -15,6 +15,11 @@
         <h3>For Educational Purposes Only</h3>
     </head>
     <body>
+        <?php
+        if($_GET['submit'] == "Generate") {
+           echo "<h4> Your Fake Passport is at the bottom</h4>";
+        }
+        ?>
         <form>
             Enter First Character: <br/>
             <input type="text" name="firstName" placeholder="First Name" value="" required> <br/><br/>
@@ -309,7 +314,7 @@
         <?php
         echo "<div class='container'>";
         if($_GET['submit'] == "Generate") {
-            echo "<img src='./img/fake.jpg' alt='fake'>";
+            echo "<img src='./img/fake.png' alt='fake'>";
             echo "<div class='lastName'>" . $lastName . "</div>";
             echo "<div class='code'>USA</div>";
             echo "<div class='authority'>United State<br/>Department of State</div>";
