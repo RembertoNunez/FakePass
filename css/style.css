@@ -1,0 +1,116 @@
+body {
+    background-color: #cccccc;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 15px
+}
+
+footer {
+    font-size: .7em;
+    color: white;
+    clear: left;
+}
+
+h1 {
+    font-family: 'Dancing Script', Georgia, Times, serif;
+	font-size: 50px;
+	line-height: .001px;
+}
+
+h2 {
+    font-family:courier;
+	font-size: 20px;
+}
+
+h3 {
+    font-family:courier;
+	font-size: 10px;
+}
+
+img {
+    width:35.5%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.firstName {
+    position: absolute;
+    top: 63%;
+    left: 44.5%;
+}
+
+.lastName {
+    position: absolute;
+    top: 59%;
+    left: 44.5%;
+}
+
+.nationality {
+    position: absolute;
+    top: 66.5%;
+    left: 44.5%;
+}
+
+.state {
+    position: absolute;
+    top: 74.5%;
+    left: 44.5%;
+}
+
+.bday {
+    position: absolute;
+    top: 70.5%;
+    left: 44.5%;
+}
+
+.gender {
+    position: absolute;
+    top: 74%;
+    left: 60.5%;
+}
+
+.issue {
+    position: absolute;
+    top: 78%;
+    left: 44.5%;
+}
+
+.expiration {
+    position: absolute;
+    top: 81.5%;
+    left: 44.5%;
+}
+
+.passportNo {
+    position: absolute;
+    top: 56%;
+    left: 58%;
+}
+
+.passportType {
+    position: absolute;
+    top: 55.5%;
+    left: 46%;
+}
+
+.image {
+    position: absolute;
+    top: 62%;
+    left: 36%;
+}
+
+.code {
+    position: absolute;
+    top: 55.5%;
+    left: 51%;
+}
+
+.authority {
+    font-size: 14px;
+    position: absolute;
+    top: 78%;
+    left: 58%;
+}
